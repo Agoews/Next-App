@@ -6,6 +6,7 @@ import { CldUploadWidget, CldImage } from "next-cloudinary";
 interface CloudinaryResult {
   public_id: string;
 }
+
 const UploadPage = () => {
   const [publicId, setPublicId] = useState("");
   return (
